@@ -1,10 +1,14 @@
 public class Number {
+    // private accessible only in this class not package
     private int value;
     private Sign sign;
 
+    // instead of returning int sign = value
+    // we can return actual context (string?)
     enum Sign {
         ZERO, POSITIVE, NEGATIVE;
     }
+    
     // default constructor
     /* Number() {
         value = 0;
