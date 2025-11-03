@@ -9,5 +9,8 @@ public class Main {
         // Using getters
         System.out.println("Name: " + person.getName());
         System.out.println("Age: " + person.getAge());
+        // static vars should be treated within the class
+        // not the person object
+        System.out.println("Count: " + Person.count);
     }
 }

@@ -2,7 +2,11 @@ public class Person {
     // Private fields (cannot be accessed directly outside this class)
     private String name;
     private int age;
+    static int count = 0;
 
+    public Person() {
+        count++;
+    }
 
     // Getter for name
     public String getName() {
