@@ -4,15 +4,15 @@ public class Main {
 
         Item item1 = new Item("Apple", 5);
         Item item2 = new Item("Sword", 2);
-        Fruit item3 = new Fruit("Fuji", "Banana", 3);
+        /* Fruit item3 = new Fruit(); */
         Weapon item4 = new Weapon(50, "Rareee", "Katana", 1);
 
         inventory.addItems(item1);
         inventory.addItems(item2);
-        inventory.addItems(item3);
+        inventory.addItems("Fuji", 3, "Banana");
         inventory.addItems(item4);
 
 
-        inventory.displayItem();
+        inventory.displayItem("Banana");
     }
 }

@@ -12,6 +12,10 @@ public class Inventory {
         items.add(item);
     }
 
+    public void addItems(String name, int quantity, String type) {
+        items.add(new Fruit(type, name, quantity));
+    }
+
     public void displayItem() {
         for (Item item: items) {
             System.out.println(item.toString());
