@@ -13,6 +13,6 @@ public class Main {
         inventory.addItems(item4);
 
 
-        inventory.displayItem("Banana");
+        inventory.displayItem();
     }
 }
