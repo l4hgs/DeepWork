@@ -1,5 +1,5 @@
 public class Number {
-    // private accessible only in this class not packag
+    // private accessible only in this class not packa
     private int value;
     private Sign sign;
 
