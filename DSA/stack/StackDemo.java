@@ -7,7 +7,6 @@ class StackDemo {
         st.push(98);
         st.push(99);
         st.push(100);
-        // pop at the top
         st.pop();
 
         System.out.println("Stack ELements");
