@@ -2,7 +2,7 @@ public class Employee {
     private String name;
     private Role role;
 
-    // Enum with custom fields and constructor
+    // Enum with custom fields
     public enum Role {
         MANAGER("Leads a team"),
         DEVELOPER("Writes code"),
